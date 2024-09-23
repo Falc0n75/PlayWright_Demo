@@ -1,12 +1,9 @@
-import {  } from 'dotenv/config';
-import { env } from 'node:process';
+import {} from 'dotenv/config';
 
-exports.LoginPage = class LoginPage {
+export class LoginPage {
 
     /**
     * @param {import {  } from "plawright/test";} page
-    * @param {import {  } from 'dotenv/config';}
-    * @param {import { env } from 'node:process';}
     */
 
 constructor(page){
@@ -38,5 +35,3 @@ async login (){
 }
 
 };
-
-

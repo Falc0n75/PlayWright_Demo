@@ -1,5 +1,17 @@
 # PlayWright_Demo
 
+This project demonstrates the usage of Playwright for end-to-end testing of the Swag Labs application. The project includes several test cases that cover various aspects of the application's functionality, including logging in, adding and removing items from the cart, sorting products, and verifying social media links.
+
+## Getting Started
+
+### Installation
+
+Before running the tests, ensure that you have installed all the necessary dependencies. You can do this by running:
+
+
+npm install
+
+Playwright Commands for Notes:
 Inside that directory, you can run several commands:
 
   npx playwright test
@@ -24,7 +36,3 @@ We suggest that you begin by typing:
 
     npx playwright test
 
-And check out the following files:
-  - .\tests\example.spec.js - Example end-to-end test
-  - .\tests-examples\demo-todo-app.spec.js - Demo Todo App end-to-end tests
-  - .\playwright.config.js - Playwright Test configuration
