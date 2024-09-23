@@ -34,7 +34,7 @@ export class ProductsPage {
     async getProductPrice(index) {
         const priceText = await this.productPrice.nth(index).textContent();
         const price = parseFloat(priceText.replace('$', '').trim());
-        console.log(`Price for product ${index + 1}: ${price}`);
+        // console.log(`Price for product ${index + 1}: ${price}`);
         return price;
     }
 
@@ -54,7 +54,7 @@ export class ProductsPage {
             }
         }
 
-        console.log(`Highest Price: ${highestPrice}, Product: ${highestPriceProduct}`);
+        // console.log(`Highest Price: ${highestPrice}, Product: ${highestPriceProduct}`);
         return { name: highestPriceProduct, price: highestPrice };
     }
 

@@ -1,11 +1,11 @@
 {
   "name": "playwright_demo",
   "version": "1.0.0",
-  "description": "",
+  "description": "Playwright Demo Framework",
   "main": "index.js",
   "scripts": {},
   "keywords": [],
-  "author": "",
+  "author": "J Aguilar",
   "license": "ISC",
   "devDependencies": {
     "@playwright/test": "^1.47.2",
